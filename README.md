@@ -1,6 +1,6 @@
 # wiremock-springboot
 
-#What it is?
+# What it is?
 
 As [wiremock](https://github.com/tomakehurst/wiremock) is great for integration testing and it is distributed in various flavours- as a standard jar or as a standalones and also it comes with various usages like The Junit Rule, Java(Non-Junit) Usage(Can read more [here](http://wiremock.org/docs/getting-started/)).
  Here i have leverage the wiremock capabilities further and using it as Standalone Test Server using SpringBoot.
@@ -15,8 +15,7 @@ With this wiremock can test and mock the responses behaving as the separate serv
   * `mvn clean compile` to compile the service.
   * `mvn clean package` to build the service.
   * To run simply execute the main class `Application.java`
-###with Docker:  
-
+### with Docker:  
     docker build -t <Provide image name here say wmspringdemo> <Provide here local path of the project>
     docker run -it --rm -p 8089:8089 wmspringdemo
     
@@ -25,5 +24,5 @@ With this wiremock can test and mock the responses behaving as the separate serv
  Note: Will check-in various features like Request Matching, Stubbing, Record and Playback,Stateful Behavior etc. Though there are numerous examples already on Github and above mentioned links.
  But will check-in different problems,resolutions and ways to do it. 
  
- ##License
+ ## License
  MIT License 
