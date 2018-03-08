@@ -18,7 +18,7 @@ With this wiremock can test and mock the responses behaving as the separate serv
 ###with Docker:  
 
     docker build -t <Provide image name here say wmspringdemo> <Provide here local path of the project>
-    docker run -it --rm -p 8080:8089 wmspringdemo
+    docker run -it --rm -p 8089:8089 wmspringdemo
     
  Once your application is up then just hit the [http://localhost:8089/foo](http://localhost:8089/foo) will give you "Hello World!" response.
  
