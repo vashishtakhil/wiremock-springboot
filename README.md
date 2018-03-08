@@ -3,10 +3,10 @@
 # What it is?
 
 As [wiremock](https://github.com/tomakehurst/wiremock) is great for integration testing and it is distributed in various flavours- as a standard jar or as a standalones and also it comes with various usages like The Junit Rule, Java(Non-Junit) Usage(Can read more [here](http://wiremock.org/docs/getting-started/)).
- Here i have leverage the wiremock capabilities further and using it as Standalone Test Server using SpringBoot.
+ I have leveraged the wiremock capabilities further and using it as Standalone Test Server using SpringBoot.
  This repository covers following feature:
- *Wiremock running as a standalone server.
- *Springboot Application containing wiremock server and client instance.
+ * Wiremock running as a standalone server.
+ * Springboot Application containing wiremock server and client instance.
  
 In this wiremock is running on separate port 8089 inside the springboot application which is running on 8080 port.
 With this wiremock can test and mock the responses behaving as the separate service. This gives a edge while integration or third party test.
